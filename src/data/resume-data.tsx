@@ -20,98 +20,95 @@ import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Ismaël Balaghni",
+  initials: "IB",
+  location: "Trappes, France",
+  locationLink: "https://www.google.com/maps/place/Trappes",
   about:
     "Full Stack Engineer focused on building products with extra attention to details",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://www.balaghni.dev",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "ismael@balaghni.dev",
+    tel: "+33626456631",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/ismaelbalaghni",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/ismaelbalaghni/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/ismascarade",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "ESIEA",
+      degree: "Ingénieur Généraliste, spécialité Ingénierie Logicielle et Systèmes d'Information",
+      start: "2019",
+      end: "2022",
     },
+    {
+      school: "IUT de Ville d'Avray",
+      degree: "Génie Électrique et Informatique Industrielle",
+      start: "2017",
+      end: "2019"
+    },
+    {
+      school: "Lycée Émilie de Breteuil",
+      degree: "Baccalauréat Scientifique option Sciences de l'Ingénieur",
+      start: "2015",
+      end: "2017"
+    }
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "Thales",
+      link: "https://www.thalesgroup.com",
+      title: "Ingénieur développement logiciel",
+      badges: [],
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      start: "2022",
+      description: ""
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Thales",
+      link: "https://www.thalesgroup.com",
+      title: "Apprenti Ingénieur",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+      logo: ParabolLogo,
+      start: "2019",
+      end: "2022",
+      description:""
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Thales",
+      link: "https://www.thalesgroup.com",
+      title: "Stagiaire",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
-    },
+      logo: ParabolLogo,
+      start: "04/2019",
+      end: "07/2019",
+      description:""
+    }
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Java",
+    "Python",
+    "C/C++",
+    "HTML/CSS",
+    "Arduino",
+    "Android",
   ],
   projects: [
     {
